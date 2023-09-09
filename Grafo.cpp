@@ -32,7 +32,7 @@ void Grafo:: remover_arestas(Aresta e){
 void Grafo:: imprime(){
     for(int i =0;i < num_vertices_;i++){
         cout << i << ":" ;
-        for(int j = 0;j < num_vertices_;i++){
+        for(int j = 0;j < num_vertices_;j++){
             if(matriz_adj_[i][j] != 0){
                 cout << " " << j;
             }
